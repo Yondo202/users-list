@@ -1,0 +1,162 @@
+import React, { Component } from 'react';
+import { Col, Row } from 'react-bootstrap'
+import {FaSearch, FaCommentAlt, FaRegComments} from 'react-icons/fa'
+import {RiUserSharedLine} from 'react-icons/ri'
+import {BsFillChatDotsFill, BsChatQuoteFill} from 'react-icons/bs'
+import {RiWechat2Line} from 'react-icons/ri'
+import {AiFillProfile} from 'react-icons/ai'
+
+class UserList extends Component {
+    render() {
+        return (
+            <div className="userPar">
+               
+
+                <Row className="userRow">
+                    <Col md={2} className="side1">
+                            <div className="mainMenu">
+                                <p className="pageName" ><AiFillProfile />Page name here</p>
+                                <p><BsFillChatDotsFill />Message</p>
+                                <p><FaCommentAlt /> Comment</p>
+                            </div>
+                    </Col>
+                    <Col md={3} className="side2">
+
+                        <div className="searchInp">
+                            <label><FaSearch /></label>
+                               <input type="text" placeholder="Бүх хайлтыг эндээс ..." />
+                        </div>
+
+                        <div className="usersMenu">
+                                <div className="users">
+                                    <div className="people"><RiUserSharedLine /> 
+                                        БааасанСүрэн Даваа
+                                        <p>BaasanDark@gmail.com</p>   
+                                    </div>
+                                    <div className="people"><RiUserSharedLine /> 
+                                        БааасанСүрэн Даваа
+                                        <p>BaasanDark@gmail.com</p>   
+                                    </div>
+                                    <div className="people"><RiUserSharedLine /> 
+                                        БааасанСүрэн Даваа
+                                        <p>BaasanDark@gmail.com</p>   
+                                    </div>
+                                    <div className="people"><RiUserSharedLine /> 
+                                        БааасанСүрэн Даваа
+                                        <p>BaasanDark@gmail.com</p>   
+                                    </div>
+                                    <div className="people"><RiUserSharedLine /> 
+                                        БааасанСүрэн Даваа
+                                        <p>BaasanDark@gmail.com</p>   
+                                    </div>
+                                    <div className="people"><RiUserSharedLine /> 
+                                        БааасанСүрэн Даваа
+                                        <p>BaasanDark@gmail.com</p>   
+                                    </div>
+                                    <div className="people"><RiUserSharedLine /> 
+                                        БааасанСүрэн Даваа
+                                        <p>BaasanDark@gmail.com</p>   
+                                    </div>
+                                    <div className="people"><RiUserSharedLine /> 
+                                        БааасанСүрэн Даваа
+                                        <p>BaasanDark@gmail.com</p>   
+                                    </div>
+                                    <div className="people"><RiUserSharedLine /> 
+                                        БааасанСүрэн Даваа
+                                        <p>BaasanDark@gmail.com</p>   
+                                    </div>
+                                    <div className="people"><RiUserSharedLine /> 
+                                        БааасанСүрэн Даваа
+                                        <p>BaasanDark@gmail.com</p>   
+                                    </div>
+                                    <div className="people"><RiUserSharedLine /> 
+                                        БааасанСүрэн Даваа
+                                        <p>BaasanDark@gmail.com</p>   
+                                    </div>
+                                    <div className="people"><RiUserSharedLine /> 
+                                        БааасанСүрэн Даваа
+                                        <p>BaasanDark@gmail.com</p>   
+                                    </div>
+                                    <div className="people"><RiUserSharedLine /> 
+                                        БааасанСүрэн Даваа
+                                        <p>BaasanDark@gmail.com</p>   
+                                    </div>
+                                    <div className="people"><RiUserSharedLine /> 
+                                        БааасанСүрэн Даваа
+                                        <p>BaasanDark@gmail.com</p>   
+                                    </div>
+                                    <div className="people"><RiUserSharedLine /> 
+                                        БааасанСүрэн Даваа
+                                        <p>BaasanDark@gmail.com</p>   
+                                    </div>
+                                    
+                                </div>
+                        </div>
+                    </Col>
+                    <Col md={7} className="side3">
+                           <div className="head">
+                               <p><FaRegComments /> ЯВУУЛСАН ЧАТ (ALL)</p>
+                               <div className="searchInp">
+                            <label><FaSearch /></label>
+                               <input type="text" placeholder="Бүх хайлтыг эндээс ..." />
+                             </div>
+                           </div>
+                           
+                           <div className="Main">
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha hhahahahha</p>
+                                <p><BsChatQuoteFill />  hhahahahha</p>
+                           </div>
+                    </Col>
+                </Row>
+            </div>
+        );
+    }
+}
+
+export default UserList;

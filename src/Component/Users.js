@@ -31,14 +31,6 @@ class Users extends Component {
                 </div>
 
 
-
-
-
-
-
-
-
-
                 <div className="table_body">
                     <ul>
                         {this.state.search == '' ?
@@ -290,11 +282,11 @@ const people = [
     { name: 'Bashe', phone: '+99354128', address: 'Сүхбаатар 15-р хороо' },
     { name: 'Lynkhua', phone: '+88245637', address: 'Сүхбаатар 15-р хороо' },
     { name: 'Shoonii', phone: '+90662202', address: 'Сүхбаатар 15-р хороо' },
-    { name: 'Mongol', phone: '+99752438', address: 'Дорнод 15-р хороо' },
+    { name: 'Mongol', phone: '+99752438', address: 'Ховд' },
     { name: 'Borjigin', phone: '+99354128', address: 'Сүхбаатар 15-р хороо' },
     { name: 'Sukhbaatar', phone: '+88245637', address: 'Сүхбаатар 15-р хороо' },
     { name: 'Choijil', phone: '+90662202', address: 'Сүхбаатар 15-р хороо' },
-    { name: 'Lhagva', phone: '+99752438', address: 'Сүхбаатар 15-р хороо' },
+    { name: 'Lhagva', phone: '+99752438', address: 'Баянхонгор 15-р хороо' },
     { name: 'Suren', phone: '+99354128', address: 'Ховд 15-р хороо' },
     { name: 'Jamts', phone: '+88245637', address: 'Сүхбаатар 15-р хороо' },
     { name: 'Hutsart', phone: '+90662202', address: 'Сүхбаатар 15-р хороо' },

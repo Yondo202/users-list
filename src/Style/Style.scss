@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: rgba(0, 0, 0, 0.2);
+  // background-color: rgba(0, 0, 0, 0.2);
 
 }
 
@@ -190,6 +190,190 @@ img{
   height: 10px;
   width: 10px;
 }
+
+
+
+
+
+.userPar{
+  .userRow{
+    background-color: darkgrey;
+    height: 97vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+  }
+  .side1{
+    background-color: rgba(0,0,0,0.8);
+    .mainMenu{
+      padding-top: 50px;
+      p{
+        color: rgba(255, 255, 255, 0.8);
+        border-bottom: 1px solid black;
+        padding: 10px 0px;
+        padding-left: 35px;
+        
+        svg{
+          margin-right: 10px;
+          font-size: 24px;
+          color: rgb(97, 152, 58);
+        }
+      }
+      .pageName{
+        color: white !important;
+        padding-bottom: 60px;
+        svg{
+          color: rgb(94, 105, 0);
+        }
+      }
+      .dropDown{
+        padding-top: 30px;
+      }
+    }
+  }
+  .side2{
+    height: 96vh;
+    background-color: whitesmoke;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-y: scroll;
+    .searchInp{
+      padding-left: 30px;
+      background-color: white;
+      padding-top: 30px;
+      padding-bottom: 20px;
+      width: 100%;
+      svg{
+        font-size: 24px;
+      }
+      input{
+        border: none;
+        margin-left: 10px;
+        width: 80%;
+        padding: 10px 10px;
+        border-bottom: 1px solid rgba(0,0,0,0.8);
+      }
+    }
+    .usersMenu{
+      .users{
+        padding-top: 10px;
+        svg{
+          font-size: 30px;
+          float: left;
+          margin-right: 10px;
+        }
+        .people{
+          padding: 10px 0px;
+          padding-left: 30px;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+          p{
+            font-weight: 500;
+            font-size: 13px;
+          }
+        }
+        .addFilter{
+          float: right;
+          font-size: 10px;
+          margin-right: 5px;
+        }
+      }
+    }
+    &::-webkit-scrollbar {
+      width: 0.3em;
+    }
+    &::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
+    }
+    &::-webkit-scrollbar-thumb {
+    background-color: black;
+    outline: 1px solid slategrey;
+    }
+  }
+
+  
+  
+
+
+  .side3{
+    height: 96vh;
+    background-color: rgb(236, 236, 236);
+    padding-left: 0px;
+    overflow-y: scroll;
+      &::-webkit-scrollbar {
+        width: 0.3em;
+      }
+      &::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
+      }
+      &::-webkit-scrollbar-thumb {
+      background-color: black;
+      outline: 1px solid slategrey;
+      }
+      .top{
+        padding-top: 100px;
+        .head{
+          height: 65px;
+          background-color: white;
+          text-align: center;
+          padding-left: 0px;
+          margin-right: 0px;
+          position: fixed;
+          top: 0;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+          
+          p{
+            line-height: 50px;
+            font-size: 20px;
+            margin-bottom: 0rem;
+            svg{
+              margin-right: 15px;
+              font-size: 28px;
+              color: rgb(51, 153, 121);
+            }
+          }
+          .searchInp{
+            svg{
+              font-size: 20px;
+              margin-right: 10px;
+            }
+            input{
+              border: none;
+              margin-left: 10px;
+              width: 80%;
+              padding: 10px 10px;
+              border-bottom: 1px solid rgba(0,0,0,0.8);
+            }
+          }
+          
+    
+        }
+        .Main{
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 12px;
+            font-size: 18px;
+            font-weight: 500;
+            p{
+            background-color: rgba(2, 103, 103, 0.7);
+              border-radius: 3px;
+              color:white;
+              padding: 5px 10px ;
+            }
+            svg{
+              font-size: 18px;
+            }
+        }
+      }
+    
+  }
+}
+
+
+
+
 
 
 

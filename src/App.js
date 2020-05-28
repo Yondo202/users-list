@@ -8,7 +8,7 @@ import Users from './Component/Users.js'
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       <Users />
     </div>
   );

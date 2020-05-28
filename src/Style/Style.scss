@@ -1,4 +1,6 @@
+
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +11,7 @@
 
 body {
   background-color: rgba(0, 0, 0, 0.2);
+
 }
 
 .wrapper .header {
@@ -50,52 +53,52 @@ body {
   border-bottom: 2px solid #fff;
 }
 
-.container-fluid {
-  width: 99%;
-  font-size: 15px;
+.container-fluid{
+    width: 99%;
+    font-size: 15px;
 }
 
 .co {
   background-color: white;
-  margin-bottom: 30px;
-  padding: 5px 20px;
-  box-shadow: black 2px 2px 5px 3px;
+    margin-bottom: 30px;
+    padding: 5px 20px;
+    box-shadow: black 2px 2px 5px 3px;
 }
-
-.ProName {
+.ProName{
   font-weight: 600;
   font-size: 16px;
 }
 
 #line {
-  height: 2px;
-  width: 100%;
-  background-color: #29a5d8;
-  margin-bottom: 5px;
+    height: 2px;
+    width: 100%;
+    background-color: #29a5d8;
+    margin-bottom: 5px;
 }
 
+
+
 textarea {
-  background-color: rgba(0, 0, 0, 0.1);
-  color: black;
-  font-weight: 600;
+   background-color: rgba(0,0,0,0.1);
+   color: black;
+   font-weight: 600;
   width: 100%;
   height: 130px;
   resize: none;
   padding: 5px 2px;
 }
-
-.name {
+.name{
   font-size: 20px;
 }
 
-.buttons {
+.buttons{
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
 }
 
-.linkCount {
+.linkCount{
   background-color: darkgreen;
   height: 25px;
   width: 38px;
@@ -105,9 +108,9 @@ textarea {
   font-weight: 600;
   color: white;
   font-size: 12px;
-}
 
-.chatCount {
+}
+.chatCount{ 
   background-color: #29a5d8;
   height: 28px;
   width: 28px;
@@ -118,43 +121,42 @@ textarea {
   color: white;
 }
 
+
+
 .scrollBar::-webkit-scrollbar {
   width: 0.3em;
 }
-
 .scrollBar::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
 }
-
 .scrollBar::-webkit-scrollbar-thumb {
-  background-color: black;
-  outline: 1px solid slategrey;
+background-color: black;
+outline: 1px solid slategrey;
 }
 
 /* .original{
   text-align: center;
 } */
-img {
+img{
   width: 100;
   height: 100px;
   object-fit: cover;
   border-radius: 50%;
 }
 
-.scrollBar {
+.scrollBar{
   background-color: rgba(0, 255, 174, 0.2);
   width: 100%;
   height: 160px;
   overflow-y: scroll;
   overflow-wrap: break-word;
 }
-
 .scrollBar ul {
   list-style: none;
   padding-left: 30px;
 }
 
-.scrollBar ul li .dateHover {
+.scrollBar ul li .dateHover{
   position: absolute;
   font-size: 12px;
   top: 0px;
@@ -164,32 +166,42 @@ img {
   visibility: hidden;
 }
 
-.scrollBar ul li {
+.scrollBar ul li{
   list-style-type: disc;
   font-size: 17px;
   padding: 6px 0px;
   cursor: pointer;
   position: relative;
 }
-
-.scrollBar ul li:hover .dateHover {
-  visibility: visible;
+.scrollBar ul li{
+    &:hover{
+        .dateHover{ 
+            visibility: visible;
+        }
+    }
+    
 }
 
-.scrollBar ul li .smImg {
+
+
+
+
+.scrollBar ul li .smImg{
   height: 10px;
   width: 10px;
 }
 
-@media only screen and (max-width: 768px) {
-  .container-fluid img {
-    max-width: 40%;
-    height: 160px;
-  }
 
-  .commPar {
-    padding-left: 15px !important;
+
+
+
+
+@media only screen and (max-width: 768px){
+  .container-fluid img {
+      max-width: 40%;
+      height: 160px;
+  }
+  .commPar{
+      padding-left: 15px !important;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
